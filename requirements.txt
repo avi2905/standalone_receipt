@@ -3,3 +3,4 @@ torch==1.9.1
 transformers==4.11.3
 Pillow==8.3.2
 numpy==1.21.3
+protobuf==3.20
