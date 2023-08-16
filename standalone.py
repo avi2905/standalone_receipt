@@ -9,8 +9,8 @@ import numpy as np
 transformers.logging.disable_default_handler()
 
 # Load the model and processor from Hugging Face
-processor = DonutProcessor.from_pretrained("philschmid/donut-base-sroie")
-model = VisionEncoderDecoderModel.from_pretrained("philschmid/donut-base-sroie")
+processor = DonutProcessor.from_pretrained("avi2905/sroie_donut")
+model = VisionEncoderDecoderModel.from_pretrained("avi2905/sroie_donut")
 
 # Move model to GPU if available
 device = "cuda" if torch.cuda.is_available() else "cpu"
