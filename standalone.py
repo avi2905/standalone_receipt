@@ -10,8 +10,8 @@ transformers.logging.disable_default_handler()
 
 # Load the model and processor from Hugging Face
 
-processor = DonutProcessor.from_pretrained("avi2905/sroie_donut")
-model = VisionEncoderDecoderModel.from_pretrained("avi2905/sroie_donut")
+processor = DonutProcessor.from_pretrained("C:/Users/aviar/Desktop/JIO/PADDLE OCR/standalone/donut-base-sroie")
+model = VisionEncoderDecoderModel.from_pretrained("C:/Users/aviar/Desktop/JIO/PADDLE OCR/standalone/donut-base-sroie")
 
 # Move model to GPU if available
 device = "cuda" if torch.cuda.is_available() else "cpu"
